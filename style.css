@@ -53,6 +53,6 @@ p {
 
 /* Estilo para el logo pequeño */
 .small-logo {
-    width: 30px; /* Ajusta el ancho del logo pequeño */
+    width: 10px; /* Ajusta el ancho del logo pequeño */
     position: absolute; /* Posiciona el logo pequeño */
-    bottom: 10px;
+    bottom: 20px;
