@@ -1,53 +1,51 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: lavender; /* Color de fondo lila */
-    font-family: 'Outfit', sans-serif; /* Cambia a fuente Outfit */
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cromo con Logo</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Agregar el enlace a Google Fonts para la fuente Outfit -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cromo">
+        <!-- Aquí colocamos el logo grande -->
+        <img src="logo.png" alt="Logo" class="logo">
+        
+        <!-- Línea separadora -->
+        <hr class="separador">
+        
+        <div class="texto">
+            <div class="columnas">
+                <div class="columna">
+                    <p>Línea de texto 1: Bienvenido a nuestro cromo interactivo!</p>
+                    <hr class="separador">
+                    <p>Línea de texto 2: Estamos encantados de presentártelo.</p>
+                    <p>Línea de texto 3: Este es un ejemplo de cromo.</p>
+                    <hr class="separador">
+                </div>
+                <div class="columna">
+                    <p>Línea de texto 4: Puedes personalizarlo con tu propio contenido.</p>
+                    <p>Línea de texto 5: ¡Experimenta con las opciones disponibles!</p>
+                    <p>Línea de texto 6: Asegúrate de visitar nuestra página web.</p>
+                    <hr class="separador">
+                </div>
+            </div>
+            <div class="columnas">
+                <div class="columna">
+                    <p>Línea de texto 7: Estamos aquí para ayudarte siempre.</p>
+                </div>
+                <div class="columna">
+                    <p>Línea de texto 8: ¡Nunca dejes de aprender!</p>
+                    <p>Línea de texto 9: Gracias por visitar nuestro cromo.</p>
+                    <hr class="separador">
+                </div>
+            </div>
+        </div>
 
-.cromo {
-    text-align: center;
-    padding: 20px;
-    background-color: white; /* Fondo blanco de la carta */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra leve */
-    max-width: 300px; /* Más estrecha */
-    position: relative; /* Para posicionar el logo pequeño */
-}
-
-.logo {
-    width: 100%; /* Ajusta el tamaño del logo */
-    max-width: 200px; /* Limita el ancho del logo */
-    height: auto; /* Mantiene la proporción */
-}
-
-.texto {
-    display: flex; /* Aquí se habilita el diseño de columnas */
-    flex-direction: column; /* Coloca las columnas en vertical */
-}
-
-.columnas {
-    display: flex; /* Habilita el diseño de columnas */
-}
-
-.columna {
-    flex: 1; /* Asegura que las columnas ocupen el espacio de manera equitativa */
-    padding: 5px; /* Espaciado interno */
-}
-
-.separador {
-    border: none; /* Sin borde */
-    height: 1px; /* Altura de la línea */
-    background-color: lightgray; /* Color gris suave */
-    margin: 10px 0; /* Espaciado arriba y abajo */
-}
-
-p {
-    margin: 10px 0;
-    color: darkgray; /* Color gris oscuro para el texto */
-}
-
-/* Estilo para el logo pequeño */
-.small-logo {
-    width: 50px; /*
+        <!-- Logo pequeño en la esquina inferior derecha -->
+        <img src="small_logo.png" alt="Logo pequeño" class="small-logo">
+    </div>
+</body>
+</html>
