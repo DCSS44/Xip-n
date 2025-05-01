@@ -13,7 +13,7 @@ body {
     background-color: white; /* Fondo blanco de la carta */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra leve */
     max-width: 300px; /* Más estrecha */
-    position: relative; /* Para poder posicionar el logo pequeño */
+    position: relative; /* Para posicionar el logo pequeño */
 }
 
 .logo {
@@ -38,4 +38,20 @@ body {
 
 .separador {
     border: none; /* Sin borde */
-    height: 1px; /* Altura de
+    height: 1px; /* Altura de la línea */
+    background-color: lightgray; /* Color gris suave */
+    margin: 10px 0; /* Espaciado arriba y abajo */
+}
+
+p {
+    margin: 10px 0;
+    color: darkgray; /* Color gris oscuro para el texto */
+}
+
+/* Estilo para el logo pequeño */
+.small-logo {
+    width: 50px; /* Ajusta el ancho del logo pequeño */
+    position: absolute; /* Posiciona el logo pequeño */
+    bottom: 10px; /* Ajusta la distancia desde abajo */
+    right: 10px; /* Ajusta la distancia desde la derecha */
+}
