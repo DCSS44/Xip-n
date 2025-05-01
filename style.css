@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: lavender; /* Color de fondo lila */
-    font-family: Arial, sans-serif; /* Cambia la fuente */
+    font-family: 'Outfit', sans-serif; /* Cambia a fuente Outfit */
 }
 
 .cromo {
@@ -13,6 +13,7 @@ body {
     background-color: white; /* Fondo blanco de la carta */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra leve */
     max-width: 300px; /* Más estrecha */
+    position: relative; /* Para posicionar el logo pequeño */
 }
 
 .logo {
@@ -35,7 +36,18 @@ body {
     padding: 5px; /* Espaciado interno */
 }
 
+.separador {
+    border: none; /* Sin borde */
+    height: 1px; /* Altura de la línea */
+    background-color: lightgray; /* Color gris suave */
+    margin: 10px 0; /* Espaciado arriba y abajo */
+}
+
 p {
     margin: 10px 0;
     color: darkgray; /* Color gris oscuro para el texto */
 }
+
+/* Estilo para el logo pequeño */
+.small-logo {
+    width: 50px; /*
