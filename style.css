@@ -3,18 +3,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: lightblue;
+    background-color: lavender; /* Color de fondo lila */
     font-family: Arial, sans-serif; /* Cambia la fuente */
 }
 
 .cromo {
     text-align: center;
     padding: 20px;
-    border: 5px solid darkblue;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-    max-width: 400px; /* Limitar el ancho */
+    background-color: white; /* Fondo blanco de la carta */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra leve */
+    max-width: 300px; /* Más estrecha */
 }
 
 .logo {
@@ -39,5 +37,5 @@ body {
 
 p {
     margin: 10px 0;
-    color: darkblue; /* Color del texto */
+    color: darkgray; /* Color gris oscuro para el texto */
 }
