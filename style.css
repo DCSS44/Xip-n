@@ -49,10 +49,5 @@ body {
 p {
     margin: 10px 0; /* Margen para párrafos */
     color: darkgray; /* Color gris oscuro para el texto */
+    text-align: left; /* Por defecto, el texto es alineado a la izquierda */
 }
-
-/* Estilo para el logo pequeño */
-.small-logo {
-    width: 10px; /* Ajusta el ancho del logo pequeño */
-    position: absolute; /* Posiciona el logo pequeño */
-    bottom: 20px;
