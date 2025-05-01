@@ -50,7 +50,7 @@ p {
 
 /* Estilo para el logo pequeño */
 .small-logo {
-    width: 10px; /* Ajusta el ancho del logo pequeño */
+    width: 20px; /* Ajusta el ancho del logo pequeño */
     position: absolute; /* Posiciona el logo pequeño */
     bottom: 10px; /* Ajusta la distancia desde abajo */
     right: 10px; /* Ajusta la distancia desde la derecha */
