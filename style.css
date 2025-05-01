@@ -23,7 +23,21 @@ body {
     height: auto; /* Mantiene la proporción */
 }
 
-.texto p {
+.texto {
+    display: flex; /* Aquí se habilita el diseño de columnas */
+    flex-direction: column; /* Coloca las columnas en vertical */
+}
+
+.columnas {
+    display: flex; /* Habilita el diseño de columnas */
+}
+
+.columna {
+    flex: 1; /* Asegura que las columnas ocupen el espacio de manera equitativa */
+    padding: 5px; /* Espaciado interno */
+}
+
+p {
     margin: 10px 0;
     color: darkblue; /* Color del texto */
 }
