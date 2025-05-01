@@ -13,7 +13,8 @@ body {
     background-color: white; /* Fondo blanco de la carta */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra leve */
     max-width: 300px; /* Más estrecha */
-    position: relative; /* Para posicionar el logo pequeño */
+    position: relative; /* Para poder posicionar el logo pequeño */
+    border-radius: 20px; /* Bordes redondeados */
 }
 
 .logo {
