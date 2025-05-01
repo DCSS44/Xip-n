@@ -32,8 +32,11 @@ body {
 }
 
 .columna {
-    flex: 1; /* Asegura que las columnas ocupen el espacio de manera equitativa */
     padding: 5px; /* Espaciado interno */
+}
+
+.ancho {
+    flex: 2; /* Esta columna será el doble de ancha que la otra */
 }
 
 .separador {
@@ -44,14 +47,12 @@ body {
 }
 
 p {
-    margin: 10px 0;
+    margin: 10px 0; /* Margen para párrafos */
     color: darkgray; /* Color gris oscuro para el texto */
 }
 
 /* Estilo para el logo pequeño */
 .small-logo {
-    width: 20px; /* Ajusta el ancho del logo pequeño */
+    width: 30px; /* Ajusta el ancho del logo pequeño */
     position: absolute; /* Posiciona el logo pequeño */
-    bottom: 10px; /* Ajusta la distancia desde abajo */
-    right: 10px; /* Ajusta la distancia desde la derecha */
-}
+    bottom: 10px;
