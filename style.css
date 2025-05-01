@@ -54,7 +54,7 @@ p {
 pd {
     margin: 10px 0; /* Margen para párrafos */
     color: darkgray; /* Color gris oscuro para el texto */
-    text-align: right; /* Por defecto, el texto es alineado a la izquierda */
+    text-align: right; /* Por defecto, el texto es alineado a la derecha */
 }
 
 /* Estilo para el logo pequeño */
